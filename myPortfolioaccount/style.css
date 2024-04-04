@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,600&family=Oswald:wght@600&family=Roboto:wght@100;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,600&family=Oswald:wght@600&family=Roboto:wght@100;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(193, 187, 187);
+    width: 400px;
+    font-family: fira Sans, sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 35px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 30px;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black
+}
+
+.main {
+    /* background-color: aqua; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.infocontainer {
+    /* background-color: rgba(7, 7, 220, 0.749); */
+    height: 55vh;
+    width: 85vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Croissant One', cursive;
+
+}
+
+.hello {
+    font-size: 35px;
+    color: black;
+}
+
+.name {
+    font-size: 40px;
+    color: gold;
+    font-weight: bold;
+}
+
+.About {
+    font-size: 30px;
+    /* color: black; */
+    color: black;
+}
+
+.moreabout {
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+
+.btn {
+    margin-top: 34px;
+
+}
+
+
+.btn {
+    padding: 10px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 3px;
+    cursor: pointer;
+
+}
+
+.btn-sm {
+    font-size: 17px;
+    padding: 10px 19px;
+    margin: 12px 0;
+
+}
+
+.btn :hover {
+    background-color: aqua;
+    color: blueviolet
+}
+
+
+.devinfo {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.devPic img {
+    height: 55vh;
+    width: 35vw;
+
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Croissant One', cursive;
+
+}
+
+.contactform h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 13px;
+    color: seagreen;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.intro h2 {
+    font-family: 'Croissant One', cursive;
+    margin: 0 15px;
+
+}
+
+.intro p {
+    font-family: 'Croissant One', cursive;
+    font-size: 25px;
+    margin: 0 12px;
+}
+
+.Education {
+    margin: 0 15px;
+    padding: 12px;
+    font-size: 26px;
+}
+.eduitem{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    
+}
+
+.matric {
+    margin: 0 20px;
+    width: 265px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: green;
+}
+
+.Inter {
+    margin: 0 20px;
+    width: 200px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: red;
+}
+.graduate {
+    margin: 0 20px;
+    width: 300px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: yellowgreen;
+}
