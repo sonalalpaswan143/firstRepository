@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Store</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fa-solid fa-store"></i>
+                    <h1>Store</h1>
+                </div>
+
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <div class="div-text">
+                    <span>Super se Uper</span>
+                    <h3>For You</h3>
+                    <h1>Styles are here </h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Doloremque et itaque, asperiores ipsam aliquam corrupti!
+                    </p>
+                    <a href="#" class="btn">Buy now </a>
+                </div>
+                <div class="div-img">
+                    <img id="big1" src="images/image1.jpg" alt>
+                </div>
+                <div class="small-img">
+                    <img onclick="myTshirt(this.src)" src="images/image4.jpeg" alt="">
+                    <img onclick="myTshirt(this.src)" src="images/image3.jpeg" alt="">
+                    <img onclick="myTshirt(this.src)" src="images/image5.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <script>
+            let bigImag = document.getElementById('big1');
+            function myTshirt(shirt){
+                bigImag.src = shirt
+            }
+        </script>
+
+    </body>
+</html>
